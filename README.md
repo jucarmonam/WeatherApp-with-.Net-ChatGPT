@@ -10,7 +10,7 @@ WeatherApp is a .NET Core web application that allows users to retrieve weather 
 
 ## Technologies Used
 
-- .NET Core 5
+- .NET Core 7
 - Entity Framework Core for database management
 - HttpClient for making API requests
 - Razor Pages for the web interface
