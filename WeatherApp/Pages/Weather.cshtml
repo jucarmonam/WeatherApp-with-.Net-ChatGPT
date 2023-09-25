@@ -1,0 +1,22 @@
+﻿@page
+@model WeatherApp.Pages.WeatherModel
+@{
+    <h1>Weather Search</h1>
+
+    <form method="get">
+        <div class="form-group">
+            <label for="cityInput">City:</label>
+            <input type="text" class="form-control" id="cityInput" name="city" placeholder="Enter city name">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    @if (Model.WeatherData != null)
+    {
+        <h2>Weather in @Model.WeatherData.City</h2>
+        <p>Temperature: @Model.WeatherData.Temperature °C</p>
+        <p>Date: @Model.WeatherData.Date</p>
+        <p>Humidity: @Model.WeatherData.Humidity</p>
+        <!-- Display other weather properties as needed -->
+    }
+}
