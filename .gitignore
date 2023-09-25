@@ -132,3 +132,42 @@ $RECYCLE.BIN/
 
 # Rider
 .idea/
+
+# Visual Studio directories
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# User-specific files and directories
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet package directories
+packages/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio cache
+*.VisualState.xml
+
+# Rider
+.idea/
+*.sln.iml
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# Roslyn
+.vscode/
+.csproj.user
